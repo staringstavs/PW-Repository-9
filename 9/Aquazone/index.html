@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Toko Ikan</title>
+    <!-- logo di tab website -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container bg-light">
+      <!-- bagian menu -->
+      <div class="row navbar">
+        <div class="col-12">
+          <ul>
+            <li>
+              <a href="index.html"
+                ><img src="logo.png" width="30" /> Toko Ikan</a
+              >
+            </li>
+            <li style="float: right"><a href="tentang.html">Tentang</a></li>
+            <li style="float: right"><a href="index.html">Beranda</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- banner besar di halaman utama -->
+      <div class="row mt-3">
+        <div class="col-12">
+          <video
+            src="fish.mp4"
+            id="videox"
+            style="width: 100%; border-radius: 10px"
+            autoplay
+            loop
+          ></video>
+        </div>
+        <div class="col-12">
+          <center>
+            <div class="container bg-text text-center">
+              <h1 class="display-4">Toko Ikan</h1>
+              <p class="lead">Selamat Datang di Toko Ikan!</p>
+            </div>
+          </center>
+        </div>
+      </div>
+
+      <center>
+        <!-- list produk ikan -->
+        <div
+          class="row justify-content-center produk mt-3"
+          style="height: auto"
+        >
+          <div class="col-12 mb-3">
+            <center><h2>Katalog Ikan</h2></center>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <!-- setelah .html ada tanda tanya itu artinya akan mengirim data ke halaman detail.html dengan data bernama 'gambar' yang isinya 1 -->
+            <!-- ini fungsinya supaya gambar di halaman detail bisa berubah sesuai data ikan yg diklik -->
+            <a href="detail.html?gambar=1">
+              <div class="card">
+                <!-- gambarnya disimpen di background -->
+                <img
+                  class="card-img-top"
+                  style="
+                    background: url('1.jpg');
+                    background-position: center;
+                    height: 300px;
+                    background-size: cover;
+                    border-radius: 10px;
+                  "
+                />
+                <div class="card-body">
+                  <p class="card-text text-center">Ikan Cupang</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-4 mb-3">
+            <a href="detail.html?gambar=2">
+              <div class="card">
+                <!-- gambarnya disimpen di background -->
+                <img
+                  class="card-img-top"
+                  style="
+                    background: url('2.jpg');
+                    background-position: center;
+                    height: 300px;
+                    background-size: cover;
+                    border-radius: 10px;
+                  "
+                />
+                <div class="card-body">
+                  <p class="card-text text-center">Ikan Cupang</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-4 mb-3">
+            <a href="detail.html?gambar=3">
+              <div class="card">
+                <!-- gambarnya disimpen di background -->
+                <img
+                  class="card-img-top"
+                  style="
+                    background: url('3.jpg');
+                    background-position: center;
+                    height: 300px;
+                    background-size: cover;
+                    border-radius: 10px;
+                  "
+                />
+                <div class="card-body">
+                  <p class="card-text text-center">Ikan Cupang</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-4 mb-3">
+            <a href="detail.html?gambar=4">
+              <div class="card">
+                <!-- gambarnya disimpen di background -->
+                <img
+                  class="card-img-top"
+                  style="
+                    background: url('4.jpg');
+                    background-position: center;
+                    height: 300px;
+                    background-size: cover;
+                    border-radius: 10px;
+                  "
+                />
+                <div class="card-body">
+                  <p class="card-text text-center">Ikan Cupang</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-4 mb-3">
+            <a href="detail.html?gambar=5">
+              <div class="card">
+                <!-- gambarnya disimpen di background -->
+                <img
+                  class="card-img-top"
+                  style="
+                    background: url('5.jpg');
+                    background-position: center;
+                    height: 300px;
+                    background-size: cover;
+                    border-radius: 10px;
+                  "
+                />
+                <div class="card-body">
+                  <p class="card-text text-center">Ikan Cupang</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-4 mb-3">
+            <a href="detail.html?gambar=6">
+              <div class="card">
+                <!-- gambarnya disimpen di background -->
+                <img
+                  class="card-img-top"
+                  style="
+                    background: url('6.jpg');
+                    background-position: center;
+                    height: 300px;
+                    background-size: cover;
+                    border-radius: 10px;
+                  "
+                />
+                <div class="card-body">
+                  <p class="card-text text-center">Ikan Cupang</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </center>
+
+      <div class="row">
+        <!-- footer -->
+        <div class="col-12 bg-dark text-center text-white p-3">
+          Copyright &copy Toko Ikan 2022
+        </div>
+      </div>
+    </div>
+    <!--end container-->
+    <script>
+      var video = document.getElementById("video");
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    </script>
+  </body>
+</html>
